@@ -127,7 +127,8 @@ body{
 /* Responsive using media query */
 @media (width < 600px){
     .card{
-        padding: 20px 15px;
+        max-width: 360px;
+        padding: 15px 15px;
     }
     .search input{
         height: 40px;
