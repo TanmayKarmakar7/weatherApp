@@ -125,18 +125,23 @@ body{
 }
 
 /* Responsive using media query */
-@media (width < 600px){
+@media only screen and (width < 720px){
+    body{
+        height: 95vh;
+        width: 98vw;
+   }
     .card{
         max-width: 360px;
         padding: 15px 15px;
     }
     .search input{
-        height: 40px;
+        height: 35px;
+        max-width: 250px;
         font-size: 14px;
     }
     .search button{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }     
     .search button img{
         width: 14px;
@@ -145,10 +150,10 @@ body{
         font-size: 17px;
     }
     .error img{
-        width: 280px;
+        width: 275px;
     }
     .weather-icon{
-        width: 175px;
+        width: 165px;
     }
     .weather h1{
         font-size: 60px;
